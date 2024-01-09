@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "start": "nodemon index.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "jest --coverage"
     },
     "author": "",
     "license": "ISC",
@@ -15,5 +15,8 @@
         "msnodesqlv8": "^4.1.2",
         "mssql": "^10.0.1",
         "nodemon": "^3.0.1"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0"
     }
 }
